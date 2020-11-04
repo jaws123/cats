@@ -17,7 +17,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@env/*": ["./src/environments/*"],
+      "@cat/*": ["./src/app/modules/cat/*"],
+      "@login/*": ["./src/app/modules/login/*"],
+      "@shared/*": ["./src/app/modules/shared/*"]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

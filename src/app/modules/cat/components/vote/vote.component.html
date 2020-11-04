@@ -1,0 +1,8 @@
+<div>
+    <button class="voteBtn" (click)="iLikeIt()">I like it</button>
+    <button class="voteBtn" (click)="iDontLikeIt()">I don't like it</button>
+</div>
+
+<div *ngIf="image" class="catImage">
+    <img [src]="image.url" />
+</div>

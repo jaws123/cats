@@ -1,0 +1,11 @@
+{
+    "correctData": {
+        "subId": "test",
+        "xApiKey": "d1d221a8-4ffc-49e3-9bb4-8e2b44b89397"
+    },
+    "incorrectData": {
+        "subId": "test",
+        "xApiKey": "test"
+    }    
+}
+  

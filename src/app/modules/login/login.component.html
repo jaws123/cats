@@ -1,0 +1,9 @@
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <label>sub_id:</label>
+    <input type="text" formControlName="subId" />
+    <label>x-api-key:</label>
+    <input type="text" formControlName="xApiKey" />
+    <button type="submit" [disabled]="!loginForm.valid">Submit</button>
+</form>
+
+<div class="errorMsg">{{errorMsg}}</div>
